@@ -14,6 +14,7 @@ public class Main {
             int b=Integer.parseInt(askUser("number B:"));
             System.out.printf("result:%s%n", a == b || (a < 0 && b > 0) || (a > 1001 && b > 1001));
         }catch(IOException x){
+
             System.err.println(x);
         }
 
